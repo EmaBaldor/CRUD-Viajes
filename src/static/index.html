@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-md-4 offset-md-4">
+            <h2><center>App Viajes</center></h2>
+
+            <form id="viajesForm" class="card card-body bg-dark text-white">
+                
+                <h5><center>Crear viaje:</center></h5>
+
+                <input type="date" name="fecha" placeholder="fecha" class="form-control mb-2">
+
+                <input type="time" name="hora" placeholder="hora" class="form-control mb-2">
+
+                <input type="text" name="vehiculo" placeholder="vehiculo" class="form-control mb-2">
+
+                <input type="text" name="lugares" placeholder="lugares" class="form-control mb-2">
+
+                <input type="text" name="origen" placeholder="origen" class="form-control mb-2">
+
+                <input type="text" name="destino" placeholder="destino" class="form-control mb-2">
+
+                <button class="btn btn-primary">Crear</button>
+
+            </form>
+
+            <p></p>
+
+            <nav class="nav">
+                    <ul id="viajesList">Viajes activos:
+                    </ul>
+            </nav>
+
+        </div>
+        <script src="/static/main.js"></script>
+
+</body>
+
+</html>
